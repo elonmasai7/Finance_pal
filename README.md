@@ -1,10 +1,10 @@
-# MiniPay MiniDApps
+# FinancePal FinanceDApps
 
-MiniDApps for quick testing & prototyping in MiniPay.
+FinanceDApps for quick testing & prototyping in FinancePay.
 
 ## How to use
 
-1. Create MiniDApps in the `/dApps` folder
+1. Create FinanceDApps in the `/dApps` folder
 2. Import the DApp in the `App.tsx` file
 3. Run the following command to start the DApp
 
@@ -35,13 +35,13 @@ MiniDApps for quick testing & prototyping in MiniPay.
     ngrok http 3000
     ```
 
-### How to test your DApp in MiniPay
+### How to test your DApp in FinancePal
 
-1. Open the MiniPay app on your phone and click on compass icon.
+1. Open the FinancePal app on your phone and click on compass icon.
 
     ![minipay-app](https://github.com/celo-org/docs/blob/0712d6ec3231bd7d64a906d610a16deb1e6b037e/static/img/doc-images/minipay/minipay-1.png?raw=true)
 
-2. Click on "Test Page" to open the MiniPay test page.
+2. Click on "Test Page" to open the FinancePal test page.
 
     ![minipay-apps-screen](https://github.com/celo-org/docs/blob/0712d6ec3231bd7d64a906d610a16deb1e6b037e/static/img/doc-images/minipay/minipay-2.png?raw=true)
 
@@ -51,10 +51,10 @@ MiniDApps for quick testing & prototyping in MiniPay.
 
 ### Important Notes
 
--   Ensure the "Connect Wallet" button is hidden when your DApp is loaded inside the MiniPay app, as the wallet connection is implicit.
--   Always verify the existence of `window.provider` before initializing your web3 library to ensure seamless compatibility with the MiniPay wallet.
+-   Ensure the "Connect Wallet" button is hidden when your DApp is loaded inside the FinancePal app, as the wallet connection is implicit.
+-   Always verify the existence of `window.provider` before initializing your web2 library to ensure seamless compatibility with the FinancePal wallet.
 -   Be cautious about exposing sensitive information or functionality when using public tunneling services like ngrok. Always use them in a controlled environment.
--   MiniPay currently supports setting the `feeCurrency` property when running `eth_sendTransaction`. However, currency support is limited to `cUSD`. More currencies might be supported in future.
--   MiniPay only accepts legacy transactions at the moment. EIP-1559 properties won't be considered when handling requests.
+-   FinancePal currently supports setting the `feeCurrency` property when running `eth_sendTransaction`. However, currency support is limited to `cUSD`. More currencies might be supported in future.
+-   FinancePal only accepts legacy transactions at the moment. EIP-1559 properties won't be considered when handling requests.
 -   Message signing is not currently supported.
 -   A developer mode will be available soon, allowing the use of testnet.
