@@ -1,5 +1,4 @@
 # FinancePal FinanceDApps
-
 FinanceDApps for quick testing & prototyping in FinancePay.
 
 ## How to use
@@ -47,7 +46,7 @@ FinanceDApps for quick testing & prototyping in FinancePay.
 
 3. Enter the URL of your DApp and click on "Go".
 
-    ![minipay-site-tester](https://github.com/celo-org/docs/blob/0712d6ec3231bd7d64a906d610a16deb1e6b037e/static/img/doc-images/minipay/minipay-3.png?raw=true)
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="375" height="687" src="https://app.uizard.io/p/b3646745/embed" allowfullscreen></iframe>
 
 ### Important Notes
 
