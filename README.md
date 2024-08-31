@@ -38,22 +38,24 @@ FinanceDApps for quick testing & prototyping in FinancePay.
 
 1. Open the FinancePal app on your phone and click on compass icon.
 
-    ![minipay-app](https://github.com/celo-org/docs/blob/0712d6ec3231bd7d64a906d610a16deb1e6b037e/static/img/doc-images/minipay/minipay-1.png?raw=true)
+    ![fun1](https://github.com/user-attachments/assets/32853671-e7aa-4061-b5dc-63d2db9a3f1c)
 
-2. Click on "Test Page" to open the FinancePal test page.
 
-    ![minipay-apps-screen](https://github.com/celo-org/docs/blob/0712d6ec3231bd7d64a906d610a16deb1e6b037e/static/img/doc-images/minipay/minipay-2.png?raw=true)
+2. Click on "Dashboard" to open the FinancePal Dashboard.
 
-3. Enter the URL of your DApp and click on "Go".
+    ![fun2](https://github.com/user-attachments/assets/2d727537-04ce-4593-b372-189a3e37e361)
 
-  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="375" height="687" src="https://app.uizard.io/p/b3646745/embed" allowfullscreen></iframe>
+
+3. Notification page.
+
+![fun3](https://github.com/user-attachments/assets/ab711ee8-54b8-4d47-8501-82a7d277d391)
+
+4. Profile Modification.
+
+   ![fun54](https://github.com/user-attachments/assets/d347b636-a32d-44b0-9525-73466216cc6c)
+
 
 ### Important Notes
 
--   Ensure the "Connect Wallet" button is hidden when your DApp is loaded inside the FinancePal app, as the wallet connection is implicit.
--   Always verify the existence of `window.provider` before initializing your web2 library to ensure seamless compatibility with the FinancePal wallet.
--   Be cautious about exposing sensitive information or functionality when using public tunneling services like ngrok. Always use them in a controlled environment.
--   FinancePal currently supports setting the `feeCurrency` property when running `eth_sendTransaction`. However, currency support is limited to `cUSD`. More currencies might be supported in future.
--   FinancePal only accepts legacy transactions at the moment. EIP-1559 properties won't be considered when handling requests.
 -   Message signing is not currently supported.
 -   A developer mode will be available soon, allowing the use of testnet.
