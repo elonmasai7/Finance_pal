@@ -27,8 +27,29 @@
     <title>Finance-pal</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="375" height="687" src="https://app.uizard.io/p/b3646745/embed" allowfullscreen></iframe>
+    <style>
+      /* Make the body fill the viewport height */
+      html, body {
+          height: 100%;
+          margin: 0;
+      }
+
+      /* Center content */
+      .container {
+          display: grid;
+          place-items: center; /* Center both horizontally and vertically */
+          height: 100%;
+      }
+
+      iframe {
+          border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <div id="root"></div>
+      <iframe width="375" height="687" src="https://app.uizard.io/p/b3646745/embed" allowfullscreen></iframe>
+  </div>
   </body>
 </html>
