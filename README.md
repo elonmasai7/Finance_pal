@@ -9,7 +9,7 @@ Finance Pal is a versatile cross-payment app designed to streamline the process 
 5. Real-Time Notifications: Stay updated with instant notifications for every transaction, ensuring you never miss an important payment.
 
 
-### How to test your DApp in FinancePal
+### Getting Started
 
 1. Create an Account: Sign up using your email address or social media accounts for quick access.
 
