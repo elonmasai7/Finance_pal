@@ -1,4 +1,4 @@
-# FinancePal FinanceDApps
+# FinancePal 
 Financepal for quick testing & prototyping in FinancePal.
 
 ## How to use
