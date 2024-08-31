@@ -1,9 +1,9 @@
 # FinancePal FinanceDApps
-FinanceDApps for quick testing & prototyping in FinancePay.
+Financepal for quick testing & prototyping in FinancePal.
 
 ## How to use
 
-1. Create FinanceDApps in the `/dApps` folder
+1. Create Financepal in the `/dApps` folder
 2. Import the DApp in the `App.tsx` file
 3. Run the following command to start the DApp
 
