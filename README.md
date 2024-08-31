@@ -1,5 +1,5 @@
 # FinancePal 
-Financepal for quick testing & prototyping in FinancePal.
+Finance Pal is a versatile cross-payment app designed to streamline the process of sending and receiving payments across various platforms, both locally and internationally. With its user-friendly interface, Finance Pal enables users to effortlessly manage transactions, making it easy to connect with multiple payment systems. Whether you're transferring funds to friends, paying for services, or conducting business transactions, Finance Pal offers a secure and efficient solution for all your payment needs, ensuring seamless financial interactions no matter where you are in the world.
 
 ## How to use
 
