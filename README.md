@@ -30,7 +30,9 @@ Finance Pal is a versatile cross-payment app designed to streamline the process 
    ![fun54](https://github.com/user-attachments/assets/d347b636-a32d-44b0-9525-73466216cc6c)
 
 
-### Important Notes
+### Support
 
--   Message signing is not currently supported.
--   A developer mode will be available soon, allowing the use of testnet.
+For any questions or issues, please contact our support team at support@financepal.com. We are here to help you with any inquiries or technical difficulties.
+
+### Conclusion
+Finance Pal is your go-to solution for managing payments efficiently and securely. Join our community of users today and experience the future of cross-payment transactions!
