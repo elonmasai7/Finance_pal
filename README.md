@@ -1,52 +1,27 @@
-# FinancePal 
+## FinancePal 
 Finance Pal is a versatile cross-payment app designed to streamline the process of sending and receiving payments across various platforms, both locally and internationally. With its user-friendly interface, Finance Pal enables users to effortlessly manage transactions, making it easy to connect with multiple payment systems. Whether you're transferring funds to friends, paying for services, or conducting business transactions, Finance Pal offers a secure and efficient solution for all your payment needs, ensuring seamless financial interactions no matter where you are in the world.
 
-## How to use
+## Features
+1. Cross-Platform Transactions: Easily send and receive payments from multiple payment platforms without hassle.
+2. Local and International Support: Conduct transactions with users globally, ensuring you can manage your finances wherever you are.
+3. User-Friendly Interface: Navigate the app effortlessly with an intuitive design that enhances your payment experience.
+4. Secure Transactions: Finance Pal prioritizes your security, employing advanced encryption and safety measures to protect your financial data.
+5. Real-Time Notifications: Stay updated with instant notifications for every transaction, ensuring you never miss an important payment.
 
-1. Create Financepal in the `/dApps` folder
-2. Import the DApp in the `App.tsx` file
-3. Run the following command to start the DApp
-
-    ```bash
-    npm start
-    ```
-
-    This will start the app at `http://localhost:3000`.
-
-4. Since, this app is running on localhost and cannot be opened in MiniPay we need to create a tunnel we will use [ngrok](https://ngrok.com/) for the same.
-
-5. Create an account on ngrok, setup ngrok on your machine.
-
-    > [!NOTE]
-    > ngrok is offering free static domain, use that so the url of the app does not change!
-
-6. Use the following command, to start the tunnel.
-
-    If you have the static domain
-
-    ```bash
-    ngrok http --domain=<STATIC_DOMAIN> 3000
-    ```
-
-    If not
-
-    ```bash
-    ngrok http 3000
-    ```
 
 ### How to test your DApp in FinancePal
 
-1. Open the FinancePal app on your phone and click on compass icon.
+1. Create an Account: Sign up using your email address or social media accounts for quick access.
 
     ![fun1](https://github.com/user-attachments/assets/32853671-e7aa-4061-b5dc-63d2db9a3f1c)
 
 
-2. Click on "Dashboard" to open the FinancePal Dashboard.
+2. Link Your Payment Platforms: Connect your preferred payment methods to start sending and receiving payments.
 
     ![fun2](https://github.com/user-attachments/assets/2d727537-04ce-4593-b372-189a3e37e361)
 
 
-3. Notification page.
+3. Start Transacting: Enjoy hassle-free payments by sending or receiving funds with just a few taps.
 
 ![fun3](https://github.com/user-attachments/assets/ab711ee8-54b8-4d47-8501-82a7d277d391)
 
